@@ -6,7 +6,7 @@
 /*   By: wxuerui <wxuerui@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 12:18:48 by wxuerui           #+#    #+#             */
-/*   Updated: 2022/10/20 14:48:16 by wxuerui          ###   ########.fr       */
+/*   Updated: 2022/10/24 17:42:17 by wxuerui          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <dlfcn.h>
+
+# define _GNU_SOURCE
 
 # ifdef __cplusplus
 	extern "C"
